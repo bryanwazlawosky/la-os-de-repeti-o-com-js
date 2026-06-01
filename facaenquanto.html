@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de repetição Faç enquanto</title>
+</head>
+<body>
+    <h1>Laço de repetição Faça enquanto</h1>
+
+    <button onclick="perguntar()">Começar</button>
+
+    <script>
+        function perguntar(){
+            let nome
+            let resposta
+
+            do {
+                nome = prompt("Digite seu nome")
+
+                resposta = prompt("Quer digital outro nome?")
+            }while(resposta == "s")
+
+            alert("Fim")
+        }
+    </script>
+</body>
+</html>
